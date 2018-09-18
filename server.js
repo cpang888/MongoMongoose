@@ -22,7 +22,7 @@ mongoose
   .catch(error => console.log('There was an error with your connection:', error));
 
 //setting up favicon middleware
-app.use(favicon(path.join(__dirname, 'public', 'assets/img/favicon.ico')));
+// app.use(favicon(path.join(__dirname, 'public', 'assets/img/favicon.ico')));
 
 //setting up Morgan middleware
 app.use(logger('dev'));
