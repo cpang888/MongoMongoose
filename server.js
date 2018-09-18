@@ -4,8 +4,8 @@ const express = require('express'),
       exphbs = require('express-handlebars'),
       bodyParser = require('body-parser'),
       logger = require('morgan'),
-      path = require('path'),
-      favicon = require('serve-favicon');
+      path = require('path');
+      // favicon = require('serve-favicon');
 
 
 //initializing the app
