@@ -27,5 +27,4 @@ router.delete('/deleteArticle/:id', function(req,res){
     .catch(error => res.json(error));
 });
 
-
 module.exports = router;

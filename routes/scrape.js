@@ -10,7 +10,6 @@ router.get("/newArticles", function(req, res) {
   //configuring options object for request-promist
   const options = {
     uri: 'https://www.nytimes.com/section/world',
-    // uri: 'https://www.echojs.com/',
     transform: function (body) {
         return cheerio.load(body);
     }
